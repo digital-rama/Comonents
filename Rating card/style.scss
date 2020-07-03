@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F5F8FF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    padding: 20px 0;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba($color: #000000, $alpha: 0.30);
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+}
+
+.review-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px;
+    border-radius: 50px;
+    background-color: #F5F8FF;
+    margin-top: 10px;
+}
+
+.review-bar i {
+    color: #ffcc48;
+    margin: 0 5px;
+}
+
+h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 10px 0;
+    margin-bottom: 15px;
+}
+
+.review-nums {
+    max-width: 100%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-back {
+    width: 200px;
+    background-color: grey;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.bar-front {
+    background-color: #ffcc48;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 100px;
+    padding: 12px 0;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.review-nums span {
+    font-size: 10px;
+}
+
+.review-nums .bar-back .bar-front span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #f3b007;
+}
+
+.review-nums span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.review-nums {
+    margin: 10px;
+}
+
+.pointer {
+    position: absolute;
+    top: -6px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #101820ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 5px rgba($color: #000, $alpha: 0.30);
+    cursor: pointer;
+}
+
+.pointer:hover {
+    transform: scale(1.2);
+}
+
+.calc {
+    margin-top: 20px;
+    color: dodgerblue;
+}
+
+.calc:hover {
+    color: rgb(63, 29, 255);
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

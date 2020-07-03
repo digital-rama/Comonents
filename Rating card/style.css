@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F5F8FF;
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  padding: 20px 0;
+  width: 400px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+}
+
+.review-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 15px;
+  border-radius: 50px;
+  background-color: #F5F8FF;
+  margin-top: 10px;
+}
+
+.review-bar i {
+  color: #ffcc48;
+  margin: 0 5px;
+}
+
+h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 10px 0;
+  margin-bottom: 15px;
+}
+
+.review-nums {
+  max-width: 100%;
+  margin: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bar-back {
+  width: 200px;
+  background-color: grey;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+
+.bar-front {
+  background-color: #ffcc48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 100px;
+  padding: 12px 0;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.review-nums span {
+  font-size: 10px;
+}
+
+.review-nums .bar-back .bar-front span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #f3b007;
+}
+
+.review-nums span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.review-nums {
+  margin: 10px;
+}
+
+.pointer {
+  position: absolute;
+  top: -6px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #101820ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.pointer:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.calc {
+  margin-top: 20px;
+  color: dodgerblue;
+}
+
+.calc:hover {
+  color: #3f1dff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

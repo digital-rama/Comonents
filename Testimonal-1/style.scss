@@ -1,0 +1,109 @@
+$primary-color: #070B0E;
+$secondery-color: #111523;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFF3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    width: 900px;
+    height: 480px;
+}
+
+
+
+
+.testi-items-1 img {
+    width: 360px;
+    object-fit: cover;
+}
+
+.testi-items-1 {
+    flex: 1;
+    width: 350px;
+}
+
+.testi-items-2 {
+    width: 550px;
+    flex: 1.5;
+    margin-left: 0;
+    padding: 100px;
+}
+
+.fa-quote-left {
+    font-size: 30px;
+}
+
+.testi-items-2 p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.testi-items-2 h4 {
+    font-size: 18px;
+    margin-top: 130px;
+}
+
+small {
+    color: rgb(109, 103, 103);
+    line-height: 2.3;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brands img {
+    width: 150px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 15px 40px;
+}
+
+.brands img:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.4)
+}
+
+.brands button {
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 33px;
+    padding: 15px 40px;
+    margin-left: 35px;
+    background-color: $primary-color;
+    color: white;
+    border-style: none;
+}
+
+.brands i {
+    margin-left: 10px;
+}
