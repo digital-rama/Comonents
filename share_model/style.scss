@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #606265;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    max-width: 500px;
+    width: 90%;
+    max-height: 300px;
+    height: 90%;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card small {
+    text-align: center;
+    font-size: 12px;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+
+.fa-times {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.social-list {
+    display: flex;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.card .fa-facebook {
+    background-color: #3b5998;
+    width: 110px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.card .fa-twitter {
+    background-color: #3D90C3;
+    width: 110px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.card .fa-twitter:hover {
+    background-color: #1697e7;
+    transition: all 330ms ease-out;
+}
+
+.card .fa-twitter:hover {
+    background-color: #1c9cec;
+    transition: all 330ms ease-out;
+}
+
+.card .fa-instagram {
+    background-color: #E33568;
+    width: 110px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.card .fa-instagram:hover {
+    background-color: #f01154;
+    transition: all 330ms ease-out;
+}
+
+.card h6 {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.card .small {
+    margin-top: 30px;
+    color: dodgerblue;
+    cursor: pointer;
+}
